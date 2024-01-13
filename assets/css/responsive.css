@@ -193,12 +193,15 @@
 
 
 
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+    .navbar-brand img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 320px) {
     html {
         font-size: 60.5%;
     }
-
-
 }
